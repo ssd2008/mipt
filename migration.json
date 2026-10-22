@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-22",
+  "owner": "ssd2008",
+  "repository": "mipt",
+  "private": false,
+  "sources": [
+    {
+      "repository": "mipt_cpp",
+      "title": "МФТИ: C++",
+      "source_private": false,
+      "source_url": "https://github.com/ssd2008/mipt_cpp",
+      "source_default_branch": "master",
+      "source_head": "444da5dd11dc898f70ebec3c306aa918340b8811",
+      "destination_branch": "codex/mipt_cpp",
+      "destination_head": "ba758673d330d882ae1b2e482e05d7bf4ea7488d",
+      "source_files": 27,
+      "branches": [
+        {
+          "source_ref": "refs/heads/master",
+          "source_sha": "444da5dd11dc898f70ebec3c306aa918340b8811",
+          "destination_branch": "codex/mipt_cpp"
+        }
+      ],
+      "tags": [],
+      "presentations": [],
+      "local_additions": [],
+      "original_files_byte_identical": true,
+      "full_history_preserved": true
+    },
+    {
+      "repository": "mipt_algorithmes",
+      "title": "МФТИ: алгоритмы",
+      "source_private": false,
+      "source_url": "https://github.com/ssd2008/mipt_algorithmes",
+      "source_default_branch": "master",
+      "source_head": "ac5bba127ec2518fc8ffb54b8e7e98f2aaeb6fb9",
+      "destination_branch": "codex/mipt_algorithmes",
+      "destination_head": "770e192723960eca172ec5f2ccc298307f435ddf",
+      "source_files": 7,
+      "branches": [
+        {
+          "source_ref": "refs/heads/master",
+          "source_sha": "ac5bba127ec2518fc8ffb54b8e7e98f2aaeb6fb9",
+          "destination_branch": "codex/mipt_algorithmes"
+        }
+      ],
+      "tags": [],
+      "presentations": [],
+      "local_additions": [],
+      "original_files_byte_identical": true,
+      "full_history_preserved": true
+    }
+  ]
+}
