@@ -52,7 +52,7 @@ public:
 class NamedItem : public InventoryItem {
 public:
     NamedItem(std::string id, std::string name)
-        : id_(std::move(id)), name_(std::move(name)) {
+        : id_(std::move(id)), name_(name) {
         if (id_.empty() || name_.empty()) {
             throw ArgumentError("empty id or name");
         }
@@ -80,7 +80,8 @@ public:
     }
 
     void inspect() const override {
-        std::string lowercaseName = name();
+        const std::string originalName = name();
+        std::string lowercaseName = originalName;
         std::transform(lowercaseName.begin(), lowercaseName.end(), lowercaseName.begin(),
                        [](unsigned char symbol) {
                            return static_cast<char>(std::tolower(symbol));
