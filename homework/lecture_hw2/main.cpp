@@ -3,10 +3,9 @@
 #include <memory>
 #include <sstream>
 #include <string>
-
 #include "Fleet.hpp"
 
-std::string readToken(std::istream& input, const std::string& field) {
+std::string readToken(std::istream& input, std::string field) {
     std::string token;
     if (!(input >> token)) {
         throw ArgumentError("missing " + field);
@@ -117,5 +116,6 @@ int main() {
         } catch (const std::exception& error) {
             std::cout << "error: " << error.what() << '\n';
         }
+        std::cout.flush();
     }
 }
